@@ -6,9 +6,25 @@
         "framework",
         "zf2"
     ],
+	"minimum-stability": "dev",
     "homepage": "http://framework.zend.com/",
+	"repositories": [
+     {
+            "type": "package",
+            "package": {
+                "name": "hybridauth/hybridauth",
+                "version": "2.1.0",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/hybridauth/hybridauth",
+                    "reference": "f2b03b22ba096f724a924b55a2079b7dc53c52b6"
+                }
+            }
+        }
+    ],
     "require": {
         "php": ">=5.3.3",
-        "zendframework/zendframework": "2.*"
+        "zendframework/zendframework": "2.*",
+		"socalnick/scn-social-auth": "dev-master"
     }
 }

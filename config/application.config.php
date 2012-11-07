@@ -4,6 +4,7 @@ return array(
         'Application',
 		'ZfcBase',
         'ZfcUser',
+		'ScnSocialAuth',
     ),
     'module_listener_options' => array(
         'config_glob_paths'    => array(
